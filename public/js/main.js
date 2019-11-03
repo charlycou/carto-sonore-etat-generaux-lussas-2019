@@ -118,7 +118,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/li
 
 
 // module
-exports.push([module.i, "#app {\n  font-family: \"Avenir\", Helvetica, Arial, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-align: center;\n  color: #2c3e50;\n  /* margin-top: 60px; */\n}\n", ""]);
+exports.push([module.i, "#app {\n  font-family: \"Avenir\", Helvetica, Arial, sans-serif;\n  /* -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale; */\n  text-align: center;\n  color: #2c3e50;\n  /* margin-top: 60px; */\n}\n", ""]);
 
 // exports
 
@@ -14929,6 +14929,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 
@@ -14970,8 +14975,8 @@ leaflet__WEBPACK_IMPORTED_MODULE_1___default.a.Icon.Default.mergeOptions({
        */
       layer: null,
       isModalVisible: false,
-      urlSC:"",
-      title:""
+      urlSC: "",
+      title: ""
     };
   },
   props: ["geojson"],
@@ -14982,16 +14987,16 @@ leaflet__WEBPACK_IMPORTED_MODULE_1___default.a.Icon.Default.mergeOptions({
      */
     initMap() {
       this.map = leaflet__WEBPACK_IMPORTED_MODULE_1___default.a.map(this.$refs["mapContainer"], {
-        center: [44.610335, 4.477556],
-        zoom: 17,
-        maxZoom: 17,
-        minZoom: 17,
+        center: [44.60840422206536,4.473356008529663],
+        zoom: 16.6,
+        maxZoom: 16.6,
+        minZoom: 16.6,
         zoomControl: false,
         maxBounds: [
           //south west
-          [44.610335, 4.477556],
+          [44.60840422206536,4.473356008529663],
           //north east
-          [44.610335, 4.477556]
+          [44.60840422206536,4.473356008529663]
         ]
       });
     },
@@ -15038,8 +15043,8 @@ leaflet__WEBPACK_IMPORTED_MODULE_1___default.a.Icon.Default.mergeOptions({
     },
     closeModal() {
       this.isModalVisible = false;
-      this.urlSC =""
-      this.title =""
+      this.urlSC = "";
+      this.title = "";
     }
   },
   mounted() {
@@ -27959,7 +27964,7 @@ new vue_dist_vue_esm_js__WEBPACK_IMPORTED_MODULE_0__["default"]({
 /*! exports provided: type, features, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707278042&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Artur Arastakisian échange avant la projection, 23 août à 15h59\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.4759202003479,44.61125698446412]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707278027&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Federico Rossin introduit la séance, 20 août à 10h19 \"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.47269082069397,44.61078726213921]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707278009&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"La fin de la fête de l'Imaginaïre, 22 août à 3h23\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.475308656692505,44.61013040829]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707278003&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"La pluie sous la tente, 20 août à 4h19\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.473774433135986,44.60965685788347]}}]}");
+module.exports = JSON.parse("{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707278042&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Artur Arastakisian échange avant la projection, 23 août à 15h59\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.4759202003479,44.61125698446412]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707278027&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Federico Rossin introduit la séance, 20 août à 10h19 \"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.47269082069397,44.61078726213921]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707278009&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"La fin de la fête de l'Imaginaïre, 22 août à 3h23\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.475308656692505,44.61013040829]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707278003&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"La pluie sous la tente, 20 août à 4h19\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.473774433135986,44.60965685788347]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707277976&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"La rivière, 23 août à 14h05 \"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.478291273117065,44.6070217084912]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707277967&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Le concert de clotûre, 25 août à 2h22\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.473527669906616,44.61074907316531]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707277961&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Un extrait du film Chemins de Martine Rousset, 24 août à 22h13\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.470716714859008,44.6122842501306]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707277940&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Une conversation au café, 20 août à 17h50\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.472991228103638,44.61148229707666]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707277931&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Le son de la pellicule au lancement de Point De Départ de Robert Kramer, 22 août à 15H07\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.4760918617248535,44.6113066296911]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707277910&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Une discussion en marge de la fête de l'Imaginaïre, 22 août à 2H47\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.475877285003662,44.61022970062751]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707277901&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Les étudiants échangent après la projection de leurs films de fin d'études, 22 août à 23H48\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.471060037612915,44.61123789013472]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707277889&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Nader S. Ayache échange après la projection de son film La guerre des centimes, 20 août à 22H14\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.470491409301758,44.604119086744895]}},{\"type\":\"Feature\",\"properties\":{\"src\":\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/707277880&color=%233e3224&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\",\"title\":\"Tran Phuong Thao échange après la projection de son film rêves d'ouvrières, 21 août à 16H15\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[4.472867846488953,44.61064978171571]}}]}");
 
 /***/ })
 
