@@ -14987,16 +14987,18 @@ leaflet__WEBPACK_IMPORTED_MODULE_1___default.a.Icon.Default.mergeOptions({
      */
     initMap() {
       this.map = leaflet__WEBPACK_IMPORTED_MODULE_1___default.a.map(this.$refs["mapContainer"], {
-        center: [44.60840422206536,4.473356008529663],
-        zoom: 16.6,
-        maxZoom: 16.6,
-        minZoom: 16.6,
+        zoomDelta: 0.25,
+        zoomSnap: 0,
+        center: [44.60840422206536, 4.473356008529663],
+        zoom: 15.5,
+        maxZoom: 17,
+        minZoom: 15.5,
         zoomControl: false,
         maxBounds: [
           //south west
-          [44.60840422206536,4.473356008529663],
+          [44.60840422206536, 4.473356008529663],
           //north east
-          [44.60840422206536,4.473356008529663]
+          [44.60840422206536, 4.473356008529663]
         ]
       });
     },
